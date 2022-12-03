@@ -1,0 +1,39 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "./src"
+        }
+    ],
+    "settings": {
+        "python.linting.pylintEnabled": false,
+        "python.linting.enabled": true,
+        "python.formatting.provider": "black",
+        "python.linting.flake8Enabled": true,
+        "python.linting.flake8Args": [
+            "--max-line-length=88",
+            "--extend-ignore=E203,E231"
+        ],
+        "python.linting.banditEnabled": false,
+        "editor.formatOnSave": true,
+        "[python]": {
+            "editor.rulers": [
+                88
+            ]
+        },
+        "[markdown]": {
+            "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        },
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "yzhang.markdown-all-in-one",
+            "bierner.markdown-mermaid",
+            "adpyke.vscode-sql-formatter",
+            "laktak.hjson",
+        ]
+    }
+}

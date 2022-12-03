@@ -1,0 +1,1 @@
+This directory should contain shell scripts required or recommended for use with this repo.
